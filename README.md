@@ -4,15 +4,22 @@ Este projeto é um cronômetro simples que permite iniciar, pausar e redefinir o
 Funcionalidades
 
 Iniciar/Pausar o Cronômetro: Um botão que alterna entre iniciar e pausar o cronômetro.
+
 Marcar Tempo: Adiciona uma marca com o tempo atual ao clicar no botão de marcação.
+
 Redefinir: Reseta o cronômetro e limpa as marcas.
+
 Estrutura do Código
 HTML: Estrutura básica com elementos de controle e exibição.
+
 JavaScript:
 Seletores: Utiliza querySelector para manipular elementos do DOM.
+
 Funções:
-fomarTime(time): Formata o tempo em horas, minutos, segundos e centésimos.
+fomarTime(time): Formata o tempo em horas, minutos, 
+segundos e centésimos.
 addMarkToList(markIndex, markTime): Adiciona uma marca à lista exibida.
+
 markTime(): Armazena o tempo atual e chama a função de adicionar marca.
 toggleTime(): Inicia ou pausa o cronômetro.
 resetTime(): Reseta o cronômetro e limpa as marcas.
